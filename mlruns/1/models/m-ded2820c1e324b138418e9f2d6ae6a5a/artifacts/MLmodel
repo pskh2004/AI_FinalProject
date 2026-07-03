@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/Parsa/OneDrive/Desktop/Parsa/uni/sem6/ArI/SE/SE/Project/mlruns/1/models/m-ded2820c1e324b138418e9f2d6ae6a5a/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: pickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-ded2820c1e324b138418e9f2d6ae6a5a
+model_size_bytes: 63094
+model_uuid: m-ded2820c1e324b138418e9f2d6ae6a5a
+prompts: null
+run_id: b67dab850b2d4ea294dd47d74ae3daa2
+utc_time_created: '2026-07-03 19:16:38.217301'
