@@ -15,7 +15,7 @@ from sklearn.metrics import confusion_matrix
 
 def init_mlflow_experiment(experiment_name="Customer_Churn_Prediction"):
     """
-    Initializes or sets the active MLflow experiment.
+    Initializes or sets the active MLflow experiments.
     """
     mlflow.set_experiment(experiment_name)
 
